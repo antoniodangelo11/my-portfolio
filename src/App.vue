@@ -1,5 +1,11 @@
-<script setup>
-import { RouterLink, RouterView } from 'vue-router'
+<script>
+import { RouterLink, RouterView } from 'vue-router';
+import { initFlowbite } from "flowbite";
+export default {
+  created() {
+    initFlowbite()
+  },
+}
 </script>
 
 <template>
