@@ -10,7 +10,7 @@ export default {
 
 <template>
   <header>
-    <nav class="justify-between px-4 py-3 text-gray-700 border border-gray-200 rounded-lg sm:flex sm:px-5 bg-gray-50 dark:bg-gray-800 dark:border-gray-700" aria-label="Breadcrumb">
+    <nav class="justify-between px-4 py-3 text-gray-300 border border-gray-200 rounded-lg sm:flex sm:px-5 bg-gray-800 dark:bg-gray-800 dark:border-gray-700" aria-label="Breadcrumb">
       <ol class="inline-flex items-center mb-3 space-x-1 md:space-x-2 rtl:space-x-reverse sm:mb-0">
         <li>
           <div class="flex items-center">
@@ -19,7 +19,7 @@ export default {
         </li>
         <li aria-current="page">
           <div class="flex items-center">
-            <RouterLink to="/about">About</RouterLink>
+            <RouterLink to="/projects">Projects</RouterLink>
           </div>
         </li>
       </ol>
